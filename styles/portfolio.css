@@ -277,7 +277,10 @@ footer
 }
 
 @media screen and (max-width:576px) {
-    .skill-container,.resume-container,footer
+    .skill-container,
+    .resume-container,
+    footer,
+    .about-info-container
     {
         flex-direction: column;
     }
@@ -285,7 +288,7 @@ footer
     {
         padding:5px;
     }
-    footer
+    footer,.about
     {
         padding: 20px;
     }
