@@ -269,3 +269,35 @@ footer
     width: 100%;
 }
 
+/* Responsive media query */
+
+.hide
+{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .skill-container,.resume-container,footer
+    {
+        flex-direction: column;
+    }
+    #section-description 
+    {
+        padding:5px;
+    }
+    footer
+    {
+        padding: 20px;
+    }
+
+    .footer-column
+    {
+        width: 100%;
+    }
+
+    .contact input[type="text"], .contact input[type="email"],textarea
+    {
+        width: calc(100% - 50px);
+    }
+
+}
