@@ -271,12 +271,11 @@ footer
 
 /* Responsive media query */
 
-.hide
-{
-    display: none;
-}
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px) 
+{
+
+    /* for all section(some element) make flex  direction column  */
     .skill-container,
     .resume-container,
     footer,
@@ -285,8 +284,12 @@ footer
     {
         flex-direction: column;
     }
-
-
+     
+    /* header section responsive */
+    .btn-primary
+    {
+        margin-top: 5px;
+    }
     .banner .profile-pic
     {
         width: 100%;
@@ -296,11 +299,13 @@ footer
     background-image: none;
 }
 
-    
+    /* About section responsive */
     #section-description 
     {
         padding:5px;
     }
+
+    /* Footer section responsive + about and banner section padding */
     footer,.about,.banner 
     {
         padding: 20px;
