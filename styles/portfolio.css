@@ -280,15 +280,28 @@ footer
     .skill-container,
     .resume-container,
     footer,
-    .about-info-container
+    .about-info-container,
+    .banner,nav
     {
         flex-direction: column;
     }
+
+
+    .banner .profile-pic
+    {
+        width: 100%;
+    }
+    
+.header{
+    background-image: none;
+}
+
+    
     #section-description 
     {
         padding:5px;
     }
-    footer,.about
+    footer,.about,.banner 
     {
         padding: 20px;
     }
